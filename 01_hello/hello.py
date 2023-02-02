@@ -6,10 +6,11 @@ Purpose: The purpose of this program is to greet a user by saying hellp followed
 
 import argparse as ap
 
+
 def main():
 
-#Get command line arguments
+    # Get command line arguments
 
     parser = ap.ArgumentParser(
-        description = 'Hello Mini Project',
-        formatter_class = ap.ArgumentDefaultsHelpFormatter)
+        description='Hello Mini Project',
+        formatter_class=ap.ArgumentDefaultsHelpFormatter)
