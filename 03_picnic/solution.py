@@ -45,7 +45,7 @@ def main():
         items[-1] = 'and ' + items[-1]
         bringing = ', '.join(items)
 
-    print('You are bringing {}'.format(bringing)+ " to the picnic.")
+    print('You are bringing {bringing} to the picnic.')
 
 
 # --------------------------------------------------
