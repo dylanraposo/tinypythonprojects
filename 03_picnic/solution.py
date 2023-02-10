@@ -7,7 +7,6 @@ import argparse
 # --------------------------------------------------
 def get_args():
     """Get command-line arguments"""
-
     parser = argparse.ArgumentParser(
         description='Picnic game',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -30,6 +29,7 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args()
+    # print(args.item)
     items = args.item
     num = len(items)
 
@@ -46,6 +46,7 @@ def main():
         bringing = ', '.join(items)
 
     print(f'You are bringing {bringing}.')
+
 
 # --------------------------------------------------
 if __name__ == '__main__':
